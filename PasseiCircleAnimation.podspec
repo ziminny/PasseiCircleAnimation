@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = 'PasseiCircleAnimation'
-  s.version               = '0.0.2'
+  s.version               = '0.0.1'
   s.summary               = 'Circle percent'
   s.swift_version         = '5.0'
   s.description           = <<-DESC "Describe the use of pod file"
