@@ -1,0 +1,16 @@
+PODS:
+  - PasseiCircleAnimation (0.1.0)
+
+DEPENDENCIES:
+  - PasseiCircleAnimation (from `../`)
+
+EXTERNAL SOURCES:
+  PasseiCircleAnimation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PasseiCircleAnimation: c84623451effcf746647e283385db87780939b2c
+
+PODFILE CHECKSUM: 58b8aa57c42ae081cdb95f1ad727777ab694e9a2
+
+COCOAPODS: 1.12.1

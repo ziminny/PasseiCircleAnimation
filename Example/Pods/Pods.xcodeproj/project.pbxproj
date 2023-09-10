@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1608FC1F7AD64CC633766AA915D6EB81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1F691719DC302660CFFA5CF37B16A297 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4FAA25C3FFF44C93C65B62712CFCF270 /* PasseiCircleAnimation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A8B762B94F3909AD33B874CC433CC6F /* PasseiCircleAnimation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EBE7898B4C2BD89945904690BCE402E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7594BB646430381436E7F7CB26155D49 /* Pods-PasseiCircleAnimation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB9DB068A16DBADA713E08A3B38F7381 /* Pods-PasseiCircleAnimation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D986C4F96C9420BBC3E29E93062E074 /* Pods-PasseiCircleAnimation_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5BAB978D1C9B42E335DBA65F88767F /* Pods-PasseiCircleAnimation_Tests-dummy.m */; };
+		98616D4B8A8DA994B2EA5AF28175D6A1 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E375A6B714CBA93EED1041867A31DCF3 /* ReplaceMe.swift */; };
+		B287F06818EA69D702640085F0EAADF7 /* PasseiCircleAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF135B83B6BD0B8111B7A2B715DA60B6 /* PasseiCircleAnimation-dummy.m */; };
+		BE6FBD12F2C021E8EE1D29F3DC6497FE /* Pods-PasseiCircleAnimation_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DCB9344928A6E59047549F1BFE973C06 /* Pods-PasseiCircleAnimation_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9191B4D88E1436E94B7FAA89066FAA4 /* Pods-PasseiCircleAnimation_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE0506549B1EF59B86549737776CAC7 /* Pods-PasseiCircleAnimation_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5638D0FB88090574336C79B96288A612 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3FAF2B7F0397081A97529E0C9097DED;
+			remoteInfo = PasseiCircleAnimation;
+		};
+		72CC36A898293EE9A753BA141D6DCC21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE4ED35B03921B34E7A8FEDDD75E99C3;
+			remoteInfo = "Pods-PasseiCircleAnimation_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27A3FE7231D967D13236D1D1B05DA27F /* Pods-PasseiCircleAnimation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PasseiCircleAnimation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2B361A0B6C1032B4046EFD7C16693D2F /* Pods-PasseiCircleAnimation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PasseiCircleAnimation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2EB1F4169BCE7D9F60193FD78B41E093 /* PasseiCircleAnimation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PasseiCircleAnimation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		307FC5DBBA5805B1DD4E5DDCB602AA3A /* Pods-PasseiCircleAnimation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PasseiCircleAnimation_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		30F60C2FEA443CA5C5720C39DD16F1B6 /* Pods-PasseiCircleAnimation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PasseiCircleAnimation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3A8B762B94F3909AD33B874CC433CC6F /* PasseiCircleAnimation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PasseiCircleAnimation-umbrella.h"; sourceTree = "<group>"; };
+		3BAC44492F4A6C2FDCD972118B49DFE6 /* PasseiCircleAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PasseiCircleAnimation.modulemap; sourceTree = "<group>"; };
+		42BD41D30F1D3652477786E09EFCAE62 /* Pods-PasseiCircleAnimation_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PasseiCircleAnimation_Example-Info.plist"; sourceTree = "<group>"; };
+		4AD172CAF7F4412BE19A6495450E2E80 /* Pods-PasseiCircleAnimation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PasseiCircleAnimation_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5009239B3E7EAD211B21E81DD090DF81 /* Pods-PasseiCircleAnimation_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PasseiCircleAnimation_Example-frameworks.sh"; sourceTree = "<group>"; };
+		524EE3B073F0DED0329D7F30B5D7ED19 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5E9D1663E1124FECC774751533F41613 /* PasseiCircleAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PasseiCircleAnimation.debug.xcconfig; sourceTree = "<group>"; };
+		6264066CC8C95BBDDB3D1DA20FCAD242 /* PasseiCircleAnimation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PasseiCircleAnimation-Info.plist"; sourceTree = "<group>"; };
+		71CA6E09EB0217C8D37BB27AFE1C1FA5 /* Pods-PasseiCircleAnimation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PasseiCircleAnimation_Tests.modulemap"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7655FABB8D705F57A54FAD3944D83318 /* PasseiCircleAnimation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PasseiCircleAnimation-prefix.pch"; sourceTree = "<group>"; };
+		76587F05FCF244E03ACD79B4A1A302B9 /* Pods-PasseiCircleAnimation_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PasseiCircleAnimation_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		78509B4B444E746D3C86BA9446291E2A /* Pods-PasseiCircleAnimation_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PasseiCircleAnimation_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		829FC54A1B5AE0681955640D65885940 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FE0506549B1EF59B86549737776CAC7 /* Pods-PasseiCircleAnimation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PasseiCircleAnimation_Example-dummy.m"; sourceTree = "<group>"; };
+		A9EAF622C1497CF3A8284455B195FA61 /* PasseiCircleAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PasseiCircleAnimation.release.xcconfig; sourceTree = "<group>"; };
+		AB9DB068A16DBADA713E08A3B38F7381 /* Pods-PasseiCircleAnimation_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PasseiCircleAnimation_Example-umbrella.h"; sourceTree = "<group>"; };
+		B62EE1756339A109C3D138D753A4F62D /* Pods-PasseiCircleAnimation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PasseiCircleAnimation_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B9C085706A6A6442074B246AD873B7D9 /* PasseiCircleAnimation */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PasseiCircleAnimation; path = PasseiCircleAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF231E441F4B46C54F4F289CB475329B /* Pods-PasseiCircleAnimation_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PasseiCircleAnimation_Example"; path = Pods_PasseiCircleAnimation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1529AB468F8A62BB73F91E7E381825E /* Pods-PasseiCircleAnimation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PasseiCircleAnimation_Example.modulemap"; sourceTree = "<group>"; };
+		CB5BAB978D1C9B42E335DBA65F88767F /* Pods-PasseiCircleAnimation_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PasseiCircleAnimation_Tests-dummy.m"; sourceTree = "<group>"; };
+		DCB9344928A6E59047549F1BFE973C06 /* Pods-PasseiCircleAnimation_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PasseiCircleAnimation_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DF135B83B6BD0B8111B7A2B715DA60B6 /* PasseiCircleAnimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PasseiCircleAnimation-dummy.m"; sourceTree = "<group>"; };
+		E02BF80233DED936F50F084E582006EE /* Pods-PasseiCircleAnimation_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PasseiCircleAnimation_Tests-Info.plist"; sourceTree = "<group>"; };
+		E375A6B714CBA93EED1041867A31DCF3 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = PasseiCircleAnimation/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		EA6353D0733A7AC934B49A8EB7449E80 /* Pods-PasseiCircleAnimation_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PasseiCircleAnimation_Tests"; path = Pods_PasseiCircleAnimation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A527EE37CDFF7E906549693F6A02118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1608FC1F7AD64CC633766AA915D6EB81 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A487E65C57443C272B8C61F2801131FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EBE7898B4C2BD89945904690BCE402E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E07126B6A3DF17B2C26E0F25ED56BE43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F691719DC302660CFFA5CF37B16A297 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18FB5C9E3FA137943A7E23AE5E966ED4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				73A4ABE5547257D4B4C57B38C93D5784 /* Pods-PasseiCircleAnimation_Example */,
+				F2064AE0E951E23E9EF80E2D3C6D0253 /* Pods-PasseiCircleAnimation_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		36BD99BDA48389B96D20AD16EEA36651 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9C085706A6A6442074B246AD873B7D9 /* PasseiCircleAnimation */,
+				BF231E441F4B46C54F4F289CB475329B /* Pods-PasseiCircleAnimation_Example */,
+				EA6353D0733A7AC934B49A8EB7449E80 /* Pods-PasseiCircleAnimation_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B29B4E69D0930C5FC96129E2C31210B /* PasseiCircleAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				E375A6B714CBA93EED1041867A31DCF3 /* ReplaceMe.swift */,
+				4873C1C8FD867F80D1713D3E707AE534 /* Pod */,
+				A5E0A97FE703EA235E78EEE2C7CE0698 /* Support Files */,
+			);
+			name = PasseiCircleAnimation;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4873C1C8FD867F80D1713D3E707AE534 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				524EE3B073F0DED0329D7F30B5D7ED19 /* LICENSE */,
+				2EB1F4169BCE7D9F60193FD78B41E093 /* PasseiCircleAnimation.podspec */,
+				829FC54A1B5AE0681955640D65885940 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		73A4ABE5547257D4B4C57B38C93D5784 /* Pods-PasseiCircleAnimation_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C1529AB468F8A62BB73F91E7E381825E /* Pods-PasseiCircleAnimation_Example.modulemap */,
+				27A3FE7231D967D13236D1D1B05DA27F /* Pods-PasseiCircleAnimation_Example-acknowledgements.markdown */,
+				30F60C2FEA443CA5C5720C39DD16F1B6 /* Pods-PasseiCircleAnimation_Example-acknowledgements.plist */,
+				9FE0506549B1EF59B86549737776CAC7 /* Pods-PasseiCircleAnimation_Example-dummy.m */,
+				5009239B3E7EAD211B21E81DD090DF81 /* Pods-PasseiCircleAnimation_Example-frameworks.sh */,
+				42BD41D30F1D3652477786E09EFCAE62 /* Pods-PasseiCircleAnimation_Example-Info.plist */,
+				AB9DB068A16DBADA713E08A3B38F7381 /* Pods-PasseiCircleAnimation_Example-umbrella.h */,
+				307FC5DBBA5805B1DD4E5DDCB602AA3A /* Pods-PasseiCircleAnimation_Example.debug.xcconfig */,
+				4AD172CAF7F4412BE19A6495450E2E80 /* Pods-PasseiCircleAnimation_Example.release.xcconfig */,
+			);
+			name = "Pods-PasseiCircleAnimation_Example";
+			path = "Target Support Files/Pods-PasseiCircleAnimation_Example";
+			sourceTree = "<group>";
+		};
+		A5E0A97FE703EA235E78EEE2C7CE0698 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BAC44492F4A6C2FDCD972118B49DFE6 /* PasseiCircleAnimation.modulemap */,
+				DF135B83B6BD0B8111B7A2B715DA60B6 /* PasseiCircleAnimation-dummy.m */,
+				6264066CC8C95BBDDB3D1DA20FCAD242 /* PasseiCircleAnimation-Info.plist */,
+				7655FABB8D705F57A54FAD3944D83318 /* PasseiCircleAnimation-prefix.pch */,
+				3A8B762B94F3909AD33B874CC433CC6F /* PasseiCircleAnimation-umbrella.h */,
+				5E9D1663E1124FECC774751533F41613 /* PasseiCircleAnimation.debug.xcconfig */,
+				A9EAF622C1497CF3A8284455B195FA61 /* PasseiCircleAnimation.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PasseiCircleAnimation";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				F67A160BD199E24C0BCCB2F0F79E205E /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				36BD99BDA48389B96D20AD16EEA36651 /* Products */,
+				18FB5C9E3FA137943A7E23AE5E966ED4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2064AE0E951E23E9EF80E2D3C6D0253 /* Pods-PasseiCircleAnimation_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				71CA6E09EB0217C8D37BB27AFE1C1FA5 /* Pods-PasseiCircleAnimation_Tests.modulemap */,
+				78509B4B444E746D3C86BA9446291E2A /* Pods-PasseiCircleAnimation_Tests-acknowledgements.markdown */,
+				76587F05FCF244E03ACD79B4A1A302B9 /* Pods-PasseiCircleAnimation_Tests-acknowledgements.plist */,
+				CB5BAB978D1C9B42E335DBA65F88767F /* Pods-PasseiCircleAnimation_Tests-dummy.m */,
+				E02BF80233DED936F50F084E582006EE /* Pods-PasseiCircleAnimation_Tests-Info.plist */,
+				DCB9344928A6E59047549F1BFE973C06 /* Pods-PasseiCircleAnimation_Tests-umbrella.h */,
+				2B361A0B6C1032B4046EFD7C16693D2F /* Pods-PasseiCircleAnimation_Tests.debug.xcconfig */,
+				B62EE1756339A109C3D138D753A4F62D /* Pods-PasseiCircleAnimation_Tests.release.xcconfig */,
+			);
+			name = "Pods-PasseiCircleAnimation_Tests";
+			path = "Target Support Files/Pods-PasseiCircleAnimation_Tests";
+			sourceTree = "<group>";
+		};
+		F67A160BD199E24C0BCCB2F0F79E205E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B29B4E69D0930C5FC96129E2C31210B /* PasseiCircleAnimation */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6CBFB1B4DD085D07535E48EEEEE9E2E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE6FBD12F2C021E8EE1D29F3DC6497FE /* Pods-PasseiCircleAnimation_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		829D31A7C4EE64CC59D2F2C6D11CFC4B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FAA25C3FFF44C93C65B62712CFCF270 /* PasseiCircleAnimation-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC318783C42907B501B0CEAAFAB999E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7594BB646430381436E7F7CB26155D49 /* Pods-PasseiCircleAnimation_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5035884070EB8ADAC7689153351B56C6 /* Pods-PasseiCircleAnimation_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63E99EAB018903E495EEA7946F72A5FC /* Build configuration list for PBXNativeTarget "Pods-PasseiCircleAnimation_Tests" */;
+			buildPhases = (
+				6CBFB1B4DD085D07535E48EEEEE9E2E3 /* Headers */,
+				D750C02E2E4679C4C15C8C9E202876DE /* Sources */,
+				A487E65C57443C272B8C61F2801131FE /* Frameworks */,
+				A4E300A1964F8A264437B45EBC928EDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCF8E16E887A41FA840FB6362D6A6D2B /* PBXTargetDependency */,
+			);
+			name = "Pods-PasseiCircleAnimation_Tests";
+			productName = Pods_PasseiCircleAnimation_Tests;
+			productReference = EA6353D0733A7AC934B49A8EB7449E80 /* Pods-PasseiCircleAnimation_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		B3FAF2B7F0397081A97529E0C9097DED /* PasseiCircleAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EC05DD3873E60749221695BF9C236C3 /* Build configuration list for PBXNativeTarget "PasseiCircleAnimation" */;
+			buildPhases = (
+				829D31A7C4EE64CC59D2F2C6D11CFC4B /* Headers */,
+				5D0ECBE1A0355FC76E9844CD3A5AC0A0 /* Sources */,
+				E07126B6A3DF17B2C26E0F25ED56BE43 /* Frameworks */,
+				C12B9512232DBF63C0F2D8CF8D70DB4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PasseiCircleAnimation;
+			productName = PasseiCircleAnimation;
+			productReference = B9C085706A6A6442074B246AD873B7D9 /* PasseiCircleAnimation */;
+			productType = "com.apple.product-type.framework";
+		};
+		EE4ED35B03921B34E7A8FEDDD75E99C3 /* Pods-PasseiCircleAnimation_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE474950F8E5EA59AE2101FA63274506 /* Build configuration list for PBXNativeTarget "Pods-PasseiCircleAnimation_Example" */;
+			buildPhases = (
+				BC318783C42907B501B0CEAAFAB999E9 /* Headers */,
+				7577D70C42C78F3EF340EAB5C4EE6BE3 /* Sources */,
+				0A527EE37CDFF7E906549693F6A02118 /* Frameworks */,
+				6AFB6126684B7F587219E2ED6CE03CB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F21A9E5F18909929022FAA6E413CED4 /* PBXTargetDependency */,
+			);
+			name = "Pods-PasseiCircleAnimation_Example";
+			productName = Pods_PasseiCircleAnimation_Example;
+			productReference = BF231E441F4B46C54F4F289CB475329B /* Pods-PasseiCircleAnimation_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 36BD99BDA48389B96D20AD16EEA36651 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3FAF2B7F0397081A97529E0C9097DED /* PasseiCircleAnimation */,
+				EE4ED35B03921B34E7A8FEDDD75E99C3 /* Pods-PasseiCircleAnimation_Example */,
+				5035884070EB8ADAC7689153351B56C6 /* Pods-PasseiCircleAnimation_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AFB6126684B7F587219E2ED6CE03CB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E300A1964F8A264437B45EBC928EDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C12B9512232DBF63C0F2D8CF8D70DB4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D0ECBE1A0355FC76E9844CD3A5AC0A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B287F06818EA69D702640085F0EAADF7 /* PasseiCircleAnimation-dummy.m in Sources */,
+				98616D4B8A8DA994B2EA5AF28175D6A1 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7577D70C42C78F3EF340EAB5C4EE6BE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9191B4D88E1436E94B7FAA89066FAA4 /* Pods-PasseiCircleAnimation_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D750C02E2E4679C4C15C8C9E202876DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D986C4F96C9420BBC3E29E93062E074 /* Pods-PasseiCircleAnimation_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F21A9E5F18909929022FAA6E413CED4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PasseiCircleAnimation;
+			target = B3FAF2B7F0397081A97529E0C9097DED /* PasseiCircleAnimation */;
+			targetProxy = 5638D0FB88090574336C79B96288A612 /* PBXContainerItemProxy */;
+		};
+		CCF8E16E887A41FA840FB6362D6A6D2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PasseiCircleAnimation_Example";
+			target = EE4ED35B03921B34E7A8FEDDD75E99C3 /* Pods-PasseiCircleAnimation_Example */;
+			targetProxy = 72CC36A898293EE9A753BA141D6DCC21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A7DDF5B2ABCF9951163E0818EEAF7A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E9D1663E1124FECC774751533F41613 /* PasseiCircleAnimation.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PasseiCircleAnimation/PasseiCircleAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PasseiCircleAnimation/PasseiCircleAnimation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PasseiCircleAnimation/PasseiCircleAnimation.modulemap";
+				PRODUCT_MODULE_NAME = PasseiCircleAnimation;
+				PRODUCT_NAME = PasseiCircleAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		43AABF96EC116BBC9C45A8314C3914AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B62EE1756339A109C3D138D753A4F62D /* Pods-PasseiCircleAnimation_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PasseiCircleAnimation_Tests/Pods-PasseiCircleAnimation_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PasseiCircleAnimation_Tests/Pods-PasseiCircleAnimation_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6BC45905807D257FE3F6C1CC7C9D01D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 307FC5DBBA5805B1DD4E5DDCB602AA3A /* Pods-PasseiCircleAnimation_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PasseiCircleAnimation_Example/Pods-PasseiCircleAnimation_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PasseiCircleAnimation_Example/Pods-PasseiCircleAnimation_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7AE6AE33605B7FAEBB0A169C1519E478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B361A0B6C1032B4046EFD7C16693D2F /* Pods-PasseiCircleAnimation_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PasseiCircleAnimation_Tests/Pods-PasseiCircleAnimation_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PasseiCircleAnimation_Tests/Pods-PasseiCircleAnimation_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		ABDC2E346F77DF03EE48BD145410EF6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AD172CAF7F4412BE19A6495450E2E80 /* Pods-PasseiCircleAnimation_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PasseiCircleAnimation_Example/Pods-PasseiCircleAnimation_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PasseiCircleAnimation_Example/Pods-PasseiCircleAnimation_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D9F703DA6C707D9456E576EB54C51C58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9EAF622C1497CF3A8284455B195FA61 /* PasseiCircleAnimation.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PasseiCircleAnimation/PasseiCircleAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PasseiCircleAnimation/PasseiCircleAnimation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PasseiCircleAnimation/PasseiCircleAnimation.modulemap";
+				PRODUCT_MODULE_NAME = PasseiCircleAnimation;
+				PRODUCT_NAME = PasseiCircleAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63E99EAB018903E495EEA7946F72A5FC /* Build configuration list for PBXNativeTarget "Pods-PasseiCircleAnimation_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AE6AE33605B7FAEBB0A169C1519E478 /* Debug */,
+				43AABF96EC116BBC9C45A8314C3914AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EC05DD3873E60749221695BF9C236C3 /* Build configuration list for PBXNativeTarget "PasseiCircleAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A7DDF5B2ABCF9951163E0818EEAF7A2 /* Debug */,
+				D9F703DA6C707D9456E576EB54C51C58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE474950F8E5EA59AE2101FA63274506 /* Build configuration list for PBXNativeTarget "Pods-PasseiCircleAnimation_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BC45905807D257FE3F6C1CC7C9D01D4 /* Debug */,
+				ABDC2E346F77DF03EE48BD145410EF6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

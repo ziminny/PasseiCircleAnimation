@@ -1,0 +1,6 @@
+framework module PasseiCircleAnimation {
+  umbrella header "PasseiCircleAnimation-umbrella.h"
+
+  export *
+  module * { export * }
+}
