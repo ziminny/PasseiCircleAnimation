@@ -10,7 +10,7 @@ import UIKit
 
 public class UICircleAnimation:UIView {
     
-    let containerView = UIView()
+    public let containerView = UIView()
     
     public var shadowProperties:ZMShadowProperties = .init(backgroundColor: UIColor.clear.cgColor, shadowColor: UIColor.black.cgColor, shadowOffset: CGSize(width: 0, height: 1.0), shadowOpacity: 0.6, shadowRadius: 4.0)
  
@@ -135,10 +135,7 @@ public class UICircleAnimation:UIView {
     }
     
     /// - Start code here
-    public func start() {
-        
-
-        
+    public func start() { 
         self.addPropertiesSuperView()
         self.circleAnimation()
         self.textAnimation()
@@ -168,9 +165,7 @@ public class UICircleAnimation:UIView {
         
         let radius = (self.wrapperView.frame.width) / 2
         
-        let center = CGPoint(x: self.wrapperView.frame.width / 2, y: self.wrapperView.frame.height / 2)
-        print(self.wrapperView.center)
-        
+        let center = CGPoint(x: self.wrapperView.frame.width / 2, y: self.wrapperView.frame.height / 2)        
         var calcPi = 0.0
         switch startAngle {
         case.right:
@@ -193,6 +188,10 @@ public class UICircleAnimation:UIView {
 
         zMCustomGradientColor.addBorderGradient(startColor: UIColor.red, endColor: UIColor.blue, lineWidth: lineWidth, circlePath:circlePath,duration: animationDuration,gradientColors: gradientBorderColor)
  
+    }
+    
+    public func rerenderLayers() {
+        self.circleAnimation()
     }
 }
 

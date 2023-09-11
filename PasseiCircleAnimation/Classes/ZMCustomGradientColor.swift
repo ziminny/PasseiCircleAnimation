@@ -17,12 +17,13 @@ internal class ZMCustomGradientColor {
     }
     
     public func addBorderGradient(startColor:UIColor, endColor: UIColor, lineWidth: CGFloat, circlePath:UIBezierPath,duration:CGFloat,gradientColors:[Any]) {
-     
+        
             view.layer.cornerRadius = view.bounds.size.height / 2.0
             view.clipsToBounds = true
           
             let gradient = CAGradientLayer()
-     
+            gradient.removeFromSuperlayer()
+    
             gradient.frame = view.bounds
        
             gradient.colors = gradientColors
@@ -41,6 +42,7 @@ internal class ZMCustomGradientColor {
         
             gradient.mask = shape
            
+         
             view.layer.addSublayer(gradient)
         
         let animation = CABasicAnimation(keyPath: "strokeEnd")
