@@ -8,6 +8,11 @@
 import Foundation
 import UIKit
 
+public enum UICircleTextRepresentableMode {
+    case percent
+    case ofTotal
+}
+
 public class UICircleAnimation:UIView {
     
     public let containerView = UIView()
@@ -18,6 +23,15 @@ public class UICircleAnimation:UIView {
     public var gradientLayer: CAGradientLayer?
  
     public var gradientBorderColor:[CGColor] = [ UIColor.blue.cgColor,UIColor.red.cgColor ]
+    
+    public var textRepresentationMode:UICircleTextRepresentableMode = .percent
+    
+    public lazy var totalOfPercent:Int  = {
+        if textRepresentationMode == .percent {
+            print("Variable use when textRepresentationMode is .ofTotal")
+        }
+        return 0
+    }()
   
     /**
      *  Variables
@@ -122,7 +136,11 @@ public class UICircleAnimation:UIView {
     @objc private func timerFunc() {
         initialValue += 1
         if initialValue <= percent {
-            percentLabel.text = "\(initialValue)%"
+            if textRepresentationMode == .percent {
+                percentLabel.text = "\(initialValue)%"
+            } else {
+                percentLabel.text = "\(Int(initialValue))/\(totalOfPercent)"
+            }
         } else {
             timer.invalidate()
             timer = nil
@@ -143,7 +161,8 @@ public class UICircleAnimation:UIView {
     
     /// - Call timer
     private func textAnimation() {
-        self.timer = Timer.scheduledTimer(timeInterval: self.animationDuration / self.percent, target: self, selector: #selector(self.timerFunc), userInfo: nil, repeats: true)
+        let percentCalc = textRepresentationMode == .percent ? self.percent : (self.percent * 100 / Double(totalOfPercent))
+        self.timer = Timer.scheduledTimer(timeInterval: self.animationDuration / percentCalc, target: self, selector: #selector(self.timerFunc), userInfo: nil, repeats: true)
     }
     
     /// - Add from superview
@@ -165,20 +184,22 @@ public class UICircleAnimation:UIView {
         
         let radius = (self.wrapperView.frame.width) / 2
         
+        let percentCalc = textRepresentationMode == .percent ? self.percent : (self.percent * 100 / Double(totalOfPercent))
+        
         let center = CGPoint(x: self.wrapperView.frame.width / 2, y: self.wrapperView.frame.height / 2)        
         var calcPi = 0.0
         switch startAngle {
         case.right:
-            calcPi = (CGFloat.pi * 2) * percent / 100
+            calcPi = (CGFloat.pi * 2) * percentCalc / 100
             break
         case.top:
-            calcPi = (-CGFloat.pi / 2) + (CGFloat.pi * 2 * percent / 100)
+            calcPi = (-CGFloat.pi / 2) + (CGFloat.pi * 2 * percentCalc / 100)
             break
         case.left:
-            calcPi = CGFloat.pi + (CGFloat.pi  * 2 * percent / 100)
+            calcPi = CGFloat.pi + (CGFloat.pi  * 2 * percentCalc / 100)
             break
         case.bottom:
-            calcPi = ((CGFloat.pi * 2) * percent / 100) + (CGFloat.pi / 2)
+            calcPi = ((CGFloat.pi * 2) * percentCalc / 100) + (CGFloat.pi / 2)
             break
         }
         
