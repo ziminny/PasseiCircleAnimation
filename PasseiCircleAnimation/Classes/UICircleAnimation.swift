@@ -137,7 +137,7 @@ public class UICircleAnimation:UIView {
         initialValue += 1
         if initialValue <= percent {
             if textRepresentationMode == .percent {
-                percentLabel.text = "\(initialValue)%"
+                percentLabel.text = "\(Int(initialValue))%"
             } else {
                 percentLabel.text = "\(Int(initialValue))/\(totalOfPercent)"
             }
