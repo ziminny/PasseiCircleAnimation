@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary               = 'Circle Animation'
   s.swift_version         = '5.0'
   s.description           = <<-DESC "Circle animation pod"
-  Circle animation with percent and scale
+  Circle animation with percent
   DESC
   s.homepage              = 'https://github.com/ziminny/PasseiCircleAnimation'
   s.license               = { :type => 'PASSEI-GROUP', :file => 'LICENSE' }
